@@ -1,0 +1,302 @@
+body {
+
+    font-family: 'Montserrat';
+}
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.promo {
+    background-image: url(../img/Rectangle\ 1.png);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.yellow a {
+    color: yellow;
+}
+
+.container {
+ 
+    width: 1140px;
+
+    margin: 0 auto;
+}
+
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 0;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.yellow {
+    color: #FFC700;
+}
+
+a {
+    color: white;
+}
+
+
+
+.promo h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    min-width: 719px;
+    margin-top: 129px;
+}
+
+
+
+.promo_bth {
+    margin-top: 43px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    top: 490px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+
+
+h2 {
+    position: absolute;
+    width: 311px;
+    height: 29px;
+    left: 160px;
+    top: 878px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+}
+
+
+
+.Bus_tour {
+    
+    background-image: url(../img/Rectangle\ 13\ \(2\).png);
+    position: absolute;
+    width: 360px;
+    height: 497px;
+    left: 160px;
+    top: 945px;
+    border-radius: 10px;
+}
+
+
+.transport {
+    
+    position: absolute;
+    width: 102px;
+    height: 15px;
+    left: 16px;
+    top: 211px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.place {
+    position: absolute;
+    width: 233px;
+    height: 17px;
+    left: 16px;
+    top: 228px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFC700;
+}
+
+.time {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    left: 16px;
+    top: 255px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.coin {
+    position: absolute;
+    width: 70px;
+    height: 15px;
+    left: 100px;
+    top: 255px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.information {
+    position: absolute;
+    width: 320px;
+    height: 105px;
+    left: 16px;
+    top: 290px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.button{
+    border: 0;
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 16px;
+    top: 415px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 40px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.horse_tour {
+    background-image: url(../img/Rectangle\ 13\ \(1\).png);
+    position: absolute;
+    width: 360px;
+    height: 497px;
+    left: 540px;
+    top: 945px;
+    border-radius: 10px;
+}
+
+
+.Dragons_mouth{
+    background-image: url(../img/Rectangle\ 13\ \(2\).png);
+    position: absolute;
+width: 360px;
+height: 497px;
+left: 920px;
+top: 945px;
+
+border-radius: 10px;
+}
+
+
+.promo_3{
+    margin-top: 700px;
+    background-image: url(../img/Rectangle\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 749px;
+    display: flex;
+    align-items: center;
+}
+
+
+.container_3{
+   
+    width: 1140px;
+
+    margin: 0 auto;
+}
+
+.travel{
+    margin: 0 auto;
+    position: absolute;
+    width: 542px;
+    height: 476px;
+    left: 448px;
+    top: 1700px;   
+   background: #EDEDED;
+    border-radius: 10px;
+}
+
+.travel p{
+position: absolute;
+width: 73px;
+height: 29px;
+left: 85px;
+top: 61px;
+color: #0499DD;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+
+.information_2{
+    position: absolute;
+width: 382px;
+height: 136px;
+left: 533px;
+top: 1818px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+
+
+color: #282828;
+}
